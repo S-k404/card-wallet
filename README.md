@@ -28,11 +28,11 @@
 
 | Characteristic | Detail |
 | --- | --- |
-| **Dimensions** | `85.60 × 54.00 mm` with `3.0 mm` corner radii (`Edge.Cuts` from `(100.0, 100.0)` to `(185.6, 154.0)`) — exact ISO/IEC 7810 ID-1 credit-card footprint |
+| **Dimensions** | `85.60 × 54.00 mm` with `3.0 mm` corner radii — exact ISO/IEC 7810 ID-1 credit-card footprint |
 | **Material & stackup** | `1.0 mm` (or `1.6 mm`) 2-layer FR-4 glass-epoxy laminate; zero electrical nets |
-| **Mounting holes** | Four `2.2 mm` non-plated through-holes (`H1`–`H4`, `MountingHole_2.2mm_M2`) inset `4.0 mm` from each corner (`77.6 × 46.0 mm` center spacing) |
+| **Mounting holes** | Four `2.2 mm` non-plated through-holes (`H1`–`H4`, `MountingHole_2.2mm_M2`) inset `4.0 mm` from each corner (`77.6 × 46.0 mm` spacing) |
 | **Primary PCB file** | [`card_board.kicad_pcb`](card_board.kicad_pcb) holds the complete mechanical outline and NPTH array |
-| **Pre-plotted fab outputs** | [`card-Edge_Cuts.gm1`](card-Edge_Cuts.gm1) (Gerber board outline) and [`card-NPTH.drl`](card-NPTH.drl) (Excellon non-plated drill file) |
+| **Pre-plotted fab outputs** | [`card-Edge_Cuts.gm1`](card-Edge_Cuts.gm1) (Gerber board outline) and [`card-NPTH.drl`](card-NPTH.drl) (Excellon drill file) |
 <!-- /datasheet:figure -->
 
 ## Quick start & fabrication
@@ -71,3 +71,12 @@
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+<!-- datasheet:footer -->
+---
+
+<p align="center">
+  <a href="https://github.com/S-k404/openfoam-mac-suite">&larr; U21 openfoam-mac-suite</a> &middot;
+  <a href="https://github.com/S-k404/S-k404">SK-404 index</a>
+</p>
+<!-- /datasheet:footer -->
